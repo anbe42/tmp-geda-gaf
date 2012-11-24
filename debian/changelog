@@ -1,3 +1,13 @@
+geda-gaf (1:1.6.2-4.1) unstable; urgency=low
+
+  * Non-maintainer upload (with maintainer's ACK).
+  * debian/control
+    - set "Depends: geda-doc" from Recommends since its documents (including
+      copyright file) is linked to geda-doc. It fixes "geda: copyright file
+      missing after upgrade (policy 12.5) " (Closes: #694015)
+
+ -- Hideki Yamane <henrich@debian.org>  Sat, 24 Nov 2012 13:13:00 +0900
+
 geda-gaf (1:1.6.2-4) unstable; urgency=low
 
   * Added glib-single-include.patch: Do not include individual glib headers
