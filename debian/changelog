@@ -1,3 +1,12 @@
+geda-gaf (1:1.6.2-4.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix "copyright file missing after upgrade (policy 12.5)":
+    make dependency geda -> geda-doc strictly versioned.
+    (Closes: #694015)
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 07 Dec 2012 16:34:46 +0100
+
 geda-gaf (1:1.6.2-4.1) unstable; urgency=low
 
   * Non-maintainer upload (with maintainer's ACK).

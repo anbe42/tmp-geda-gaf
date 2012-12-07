@@ -12,7 +12,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-electronics/geda-gaf.git
 
 Package: geda
 Architecture: all
-Depends: ${misc:Depends}, geda-gschem, geda-gnetlist, geda-doc
+Depends: ${misc:Depends}, geda-gschem, geda-gnetlist, geda-doc (= ${source:Version})
 Recommends: geda-gsymcheck, geda-gattrib
 Suggests: geda-utils, geda-examples, gerbv, pcb
 Description: GPL EDA -- Electronics design software (metapackage)
